@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #010101;
+}
+
+header{
+    background-color: #2C2C2D;
+    height: 230px;
+}
+
+.container-grid{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+}
+
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 270px;
+}
+
+.espaçamento{
+    height: 140px;
+}
+
+.banner{
+    height: 450px;
+    background-image: url(../img/Banner\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.secao-jogos h1{
+    width: 361px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 36px;
+}
+.imagem-jogos{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-jogos1{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1;
+    left: 12%;
+    background-color: lawngreen;
+    color: black;
+    padding: 5px;
+}
+.promo-jogos2{
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 1;
+    left: 16%;
+    color: darkgrey;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.promo-jogos3{
+    position: absolute;
+    bottom: 1;
+    left: 22%;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.promo-jogos4{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1;
+    left: 47%;
+    background-color: lawngreen;
+    color: black;
+    padding: 5px;
+}
+
+.promo-jogos5{
+    position: absolute;
+    bottom: 1;
+    left: 57%;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.promo-jogos6{
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 1;
+    left: 51%;
+    color: darkgrey;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.promo-jogos7{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1;
+    left: 81%;
+    background-color: lawngreen;
+    color: black;
+    padding: 5px;
+}
+
+.promo-jogos8{
+    position: absolute;
+    bottom: 1;
+    left: 90%;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.promo-jogos9{
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 1;
+    left: 85%;
+    color: darkgrey;
+    background-color: darkslategray;
+    padding: 5px;
+}
+
+.titulo1{
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container{  
+    position: relative;  
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 150px; 
+}
+
+.imagem-cont{
+    width: 1135px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nov12{
+    position: absolute;
+    bottom: 1;
+    left: 19%;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.mais1{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1;
+    left: 43%;
+    background-color: lawngreen;
+    color: black;
+    padding: 5px;
+}
+
+.mais12{
+    position: absolute;
+    bottom: 1;
+    left: 53%;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.mais123{
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 1;
+    left: 47%;
+    color: darkgrey;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.prom1{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1;
+    left: 77%;
+    background-color: lawngreen;
+    color: black;
+    padding: 5px;
+}
+
+.prom12{
+    position: absolute;
+    bottom: 1;
+    left: 87%;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px;
+}
+.prom123{
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 1;
+    left: 81%;
+    color: darkgrey;
+    background-color: darkslategray;
+    padding: 5px;
+}
+
+
+footer{
+    background-color: #2C2C2D;
+    height: 400px;
+    position: relative;  
+    font-size: 20px;
+}
+.titulo-footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1135px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.link-todos{
+    height: 400px;
+    width: 1135px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+.link-sobre{
+    margin-left: 20px;
+    padding: 30px;
+    display: grid;
+    color: white;
+    text-align: center;
+}
+
+
+.link-categoria{
+    margin-left: 158px;
+    padding: 30px;
+    display: grid;
+    color: white;
+    text-align: center;
+}
+
+
+.link-jogos{
+    margin-left: 83px;
+    padding: 30px;
+    display: grid;
+    color: white;
+    text-align: center;
+}
+
+.todos-redes{
+    position: relative;
+}
+
+.link-redes{
+    position: absolute;
+    left: 50%;
+    top: 3%;
+}
+.link-redes2{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.link-redes3{
+    position: absolute;
+    left: 50%;
+    top: 37%;
+}
+.link-redes4{
+    position: absolute;
+    left: 50%;
+    top: 54%;
+}
+.link-redes5{
+    position: absolute;
+    left: 50%;
+    top: 71%;
+}
+
